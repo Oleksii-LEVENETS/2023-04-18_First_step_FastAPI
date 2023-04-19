@@ -23,14 +23,9 @@ jobs:
     - name: Run tox
       run: tox
 
-    - name: Lint code
-      run: |
-        pip install flake8
-        flake8 .
-
-    - name: Run tests
-      run: |
-        pytest
+#    - name: Run tests
+#      run: |
+#        pytest
 
 #    - name: Build Docker image
 #      uses: docker/build-push-action@v2
